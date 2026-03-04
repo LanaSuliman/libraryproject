@@ -1,0 +1,113 @@
+.link-box{
+  display: block;
+  padding: 18px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.box1{ background: #b8f7c7; }
+.box2{ background: #505050; }
+.box3{ background: #000000; }
+
+#linkNewTab{ color: red; }
+#linkSameTab1{ color: #f0c419; }
+#linkSameTab2{ color: white; }
+
+.link-box:visited{ opacity: 0.85; }
+.link-box:hover{ font-weight: bold; }
+.link-box:active{ transform: scale(0.99); }
+
+#formatTitle{
+  color: green;
+  background: #f3f4d8;
+  padding: 12px;
+}
+
+.list-title{
+  background: #5e9ea0;
+  color: white;
+  padding: 12px;
+}
+
+.t-center{ text-align: center; }
+
+.t1-wrap{
+  width: fit-content;
+  margin: 10px auto 25px auto;
+  text-align: center;
+}
+
+.t1-caption{
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.t1{
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 3px double #555;
+}
+
+.t1 th, .t1 td{
+  border: 2px double #555;
+  padding: 4px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.t1-total td{ font-weight: bold; }
+
+.t2-caption{
+  text-align: center;
+  margin: 10px 0 4px 0;
+  font-size: 18px;
+}
+
+.t2{
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.t2 th, .t2 td{
+  border: 1px solid #666;
+  padding: 4px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.imgcell{
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.camel-img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgcap{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.rowhead{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.camel-img{
+  margin: 10px auto;
+  border: 1px solid #666;
+}
