@@ -18,5 +18,8 @@ urlpatterns = [
     path('lab3/<int:bookId>/', views.viewbook_lab3),
     path('lab3_index/', views.index_lab3),
 
+    path('simple/query', views.simple_query, name="books.simple_query"),
+    path('complex/query', views.complex_query, name="books.complex_query"),
+
     path('<int:bookId>/', views.viewbook, name="books.view_one_book"),
 ]
