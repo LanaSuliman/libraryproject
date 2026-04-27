@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 9 Task 2</title>
+</head>
+<body>
+
+<h1>Lab 9 - Task 2</h1>
+<h2>Publishers with Total Book Stock</h2>
+
+<table border="1">
+    <tr>
+        <th>Publisher Name</th>
+        <th>Location</th>
+        <th>Total Book Stock</th>
+    </tr>
+
+    {% for publisher in publishers %}
+    <tr>
+        <td>{{ publisher.name }}</td>
+        <td>{{ publisher.location }}</td>
+        <td>{{ publisher.total_stock }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

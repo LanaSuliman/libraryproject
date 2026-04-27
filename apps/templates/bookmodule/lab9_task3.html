@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 9 Task 3</title>
+</head>
+<body>
+
+<h1>Lab 9 - Task 3</h1>
+<h2>Oldest Book for Each Publisher</h2>
+
+<table border="1">
+    <tr>
+        <th>Publisher Name</th>
+        <th>Location</th>
+        <th>Oldest Book</th>
+        <th>Publication Date</th>
+    </tr>
+
+    {% for publisher in publishers %}
+    <tr>
+        <td>{{ publisher.name }}</td>
+        <td>{{ publisher.location }}</td>
+        <td>{{ publisher.oldest_book_title }}</td>
+        <td>{{ publisher.oldest_book_date }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

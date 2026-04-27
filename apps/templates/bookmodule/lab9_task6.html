@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 9 Task 6</title>
+</head>
+<body>
+
+<h1>Lab 9 - Task 6</h1>
+<h2>Count of Books for Each Publisher with Price > 50 and Quantity Between 1 and 4</h2>
+
+<table border="1">
+    <tr>
+        <th>Publisher Name</th>
+        <th>Location</th>
+        <th>Books Count</th>
+    </tr>
+
+    {% for publisher in publishers %}
+    <tr>
+        <td>{{ publisher.name }}</td>
+        <td>{{ publisher.location }}</td>
+        <td>{{ publisher.books_count }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
