@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book - Part 2</title>
+</head>
+<body>
+
+<h1>Add New Book - Django Form</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">Add Book</button>
+</form>
+
+<br>
+
+<a href="{% url 'list_books_lab9_part2' %}">Back to Books List</a>
+
+</body>
+</html>
