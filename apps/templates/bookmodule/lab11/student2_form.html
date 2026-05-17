@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student2 Form</title>
+</head>
+<body>
+
+<h1>Student2 Form - Many To Many</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit">Save</button>
+</form>
+
+<br>
+
+<a href="{% url 'list_students2' %}">Back to Students2 List</a>
+
+</body>
+</html>
